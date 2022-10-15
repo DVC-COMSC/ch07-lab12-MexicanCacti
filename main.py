@@ -14,3 +14,9 @@ cnum = len(numbers[0])
 # ******************************
 # Make your Code
 # ******************************
+
+for i in range(cnum):
+    cnum_sum = 0
+    for j in range(rnum):
+        cnum_sum += numbers[j][i]
+    print("The summation of column {0} : {1}".format(i,cnum_sum))
